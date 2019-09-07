@@ -1,7 +1,9 @@
-\documentclass[psamsfonts]{amsart}
+\documentclass[12pt, psamsfonts]{amsart}
 
 %-------Packages---------
 \usepackage{amssymb,amsfonts}
+\usepackage{fullpage}
+\usepackage{physics}
 \usepackage[all,arc]{xy}
 \usepackage{enumerate}
 \usepackage{mathrsfs}
@@ -27,13 +29,16 @@
 \newtheorem{notn}[thm]{Notation}
 \newtheorem{notns}[thm]{Notations}
 \newtheorem{addm}[thm]{Addendum}
-\newtheorem{exer}[thm]{Exercise}
+\newtheorem*{exer}{Exercise}
 
 \theoremstyle{remark}
 \newtheorem{rem}[thm]{Remark}
 \newtheorem{rems}[thm]{Remarks}
 \newtheorem{warn}[thm]{Warning}
 \newtheorem{sch}[thm]{Scholium}
+
+\DeclareMathOperator{\Hom}{Hom}
+\DeclareMathOperator{\Id}{Id}
 
 \makeatletter
 \let\c@equation\c@thm
