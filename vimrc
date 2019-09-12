@@ -204,7 +204,7 @@ let g:it   = '{\it }i'
 let g:mb   = '\mbox{}i'
 let g:sq   = '\sqrt{}i'
 
-let g:macros = '\<\(tab\|bar\|ben\|bit\|beq\|bqn\|bfg\|bfe\|btb\|bta\|pic\|mat\|frac\|dot\|ddot\|vb\|verb\|bf\|em\|it\|mb\|sq\|bpr\|mbeq\|mbal\|bal\)\>'
+let g:macros = '\<\(tab\|bar\|ben\|bit\|beq\|bqn\|bfi\|bfg\|bfe\|btb\|bta\|pic\|mat\|frac\|dot\|ddot\|vb\|verb\|bf\|em\|it\|mb\|sq\|bpr\|mbeq\|mbal\|bal\)\>'
 
 imap <buffer> <tab> <c-r>=TeXTabWrapper()<cr>
 
