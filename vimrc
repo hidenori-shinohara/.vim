@@ -1,3 +1,7 @@
+" Add
+" runtime vimrc
+" to ~.vimrc
+
 set spellfile=$HOME/Dropbox/vim/spell/en.utf-8.add
 set nocompatible              " be iMproved, required filetype off                  " required
 set ruler
