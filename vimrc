@@ -184,9 +184,10 @@ let g:mbal  = '$$\begin{align*}\end{align*}$$kO'
 let g:mbeq  = '$$\begin{equation*}\end{equation*}$$kO'
 let g:bpr  = '\begin{problem}{}\end{problem}k$i'
 let g:bit  = '\begin{itemize}\item\end{itemize}kA'
+let g:todo  = '\todo[inline]{}'
 let g:beq  = '\begin{equation*}\end{equation*}O'
 let g:bqn  = '\begin{eqnarray}\end{eqnarray}O'
-let g:bfi  = '\begin{figure}\includegraphics[width=\linewidth]{mypicture.jpeg}\caption{mycaption}\label{fig:mylabel}\end{figure}'
+let g:bfi  = '\begin{figure}\includegraphics[width=.5\linewidth]{mypicture.jpeg}\caption{mycaption}\label{fig:mylabel}\end{figure}'
 let g:bfg  = '\begin{figure}[h]\centerline{\psfig{figure=.eps}}\caption{}\label{fig:}\end{figure}kkk$hhhhhi'
 let g:bfe  = '\begin{figure}\vspace{}\caption{}\end{figure}kk$i'
 let g:btb  = '\begin{tabular}{}\end{tabular}ki'
@@ -204,7 +205,7 @@ let g:it   = '{\it }i'
 let g:mb   = '\mbox{}i'
 let g:sq   = '\sqrt{}i'
 
-let g:macros = '\<\(tab\|bar\|ben\|bit\|beq\|bqn\|bfi\|bfg\|bfe\|btb\|bta\|pic\|mat\|frac\|dot\|ddot\|vb\|verb\|bf\|em\|it\|mb\|sq\|bpr\|mbeq\|mbal\|bal\)\>'
+let g:macros = '\<\(tab\|bar\|ben\|bit\|beq\|bqn\|bfi\|bfg\|bfe\|btb\|bta\|pic\|mat\|frac\|dot\|ddot\|vb\|verb\|bf\|em\|it\|mb\|sq\|todo\|bpr\|mbeq\|mbal\|bal\)\>'
 
 imap <buffer> <tab> <c-r>=TeXTabWrapper()<cr>
 
