@@ -185,7 +185,7 @@ let g:mbeq  = '$$\begin{equation*}\end{equation*}$$kO'
 let g:bpr  = '\begin{proof}\end{proof}k$i'
 let g:bex  = '\begin{exer}{()}\end{exer}k$i'
 let g:bit  = '\begin{itemize}\item\end{itemize}kA'
-let g:todo  = '\todo[inline]{}'
+let g:todo  = '\todo[inline,caption={}]{}'
 let g:beq  = '\begin{equation*}\end{equation*}O'
 let g:bqn  = '\begin{eqnarray}\end{eqnarray}O'
 let g:bfi  = '\begin{figure}\includegraphics[width=.5\linewidth]{mypicture.jpeg}\caption{mycaption}\label{fig:mylabel}\end{figure}'
