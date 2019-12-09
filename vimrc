@@ -188,7 +188,7 @@ let g:bit  = '\begin{itemize}\item\end{itemize}kA'
 let g:todo  = '\todo[inline,caption={}]{}'
 let g:beq  = '\begin{equation*}\end{equation*}O'
 let g:bqn  = '\begin{eqnarray}\end{eqnarray}O'
-let g:bfi  = '\begin{figure}\includegraphics[width=.5\linewidth]{mypicture.jpeg}\caption{mycaption}\label{fig:mylabel}\end{figure}'
+let g:bfi  = '\begin{figure}[!htb]\includegraphics[width=.5\linewidth]{mypicture.jpeg}\caption{mycaption}\label{fig:mylabel}\end{figure}'
 let g:bfg  = '\begin{figure}[h]\centerline{\psfig{figure=.eps}}\caption{}\label{fig:}\end{figure}kkk$hhhhhi'
 let g:bfe  = '\begin{figure}\vspace{}\caption{}\end{figure}kk$i'
 let g:btb  = '\begin{tabular}{}\end{tabular}ki'
