@@ -56,8 +56,8 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 set expandtab
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set autoindent
 set smartindent
 set number
