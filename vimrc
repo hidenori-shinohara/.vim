@@ -34,11 +34,11 @@ let g:tex_conceal = ""
 let g:vim_markdown_math = 1
 
 
-autocmd BufNewFile *.tex 0r ~/.vim/templates/skeleton.tex
-au BufNewFile *.cpp r ~/.vim/templates/A.cpp
-au BufNewFile *.md r ~/.vim/templates/template.md
-au BufNewFile gen.sh r ~/.vim/templates/gen.sh
-au BufNewFile run.sh r ~/.vim/templates/run.sh
+autocmd BufNewFile *.tex 0r ~/vim/templates/skeleton.tex
+au BufNewFile *.cpp r ~/vim/templates/A.cpp
+au BufNewFile *.md r ~/vim/templates/template.md
+au BufNewFile gen.sh r ~/vim/templates/gen.sh
+au BufNewFile run.sh r ~/vim/templates/run.sh
 
 " latex macros
 " LaTeX filetype plugin
