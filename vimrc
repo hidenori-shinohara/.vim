@@ -1,7 +1,6 @@
 " Add
 " source ~/vim/vimrc
 " to ~/.vimrc
-"
 
 set number
 
