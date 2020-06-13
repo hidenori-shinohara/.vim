@@ -1,15 +1,17 @@
 " Add
 " source ~/vim/vimrc
 " to ~/.vimrc
+"
 
-set spellfile=$HOME/Dropbox/vim/spell/en.utf-8.add
 set nocompatible              " be iMproved, required filetype off                  " required
 set ruler
 
 set number
 set ic
 set incsearch
-setlocal spell spelllang=en_us
+
+" Spell
+source ~/vim/src/spell.vim
 
 " Syntax
 source ~/vim/src/syntax.vim
