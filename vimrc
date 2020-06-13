@@ -2,6 +2,10 @@
 " source ~/vim/vimrc
 " to ~/.vimrc
 
+" Vundle
+" This must be the first .vim to read.
+source ~/vim/src/vundle_config.vim
+
 set number
 
 " Search
