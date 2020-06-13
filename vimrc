@@ -11,7 +11,8 @@ set ic
 set incsearch
 setlocal spell spelllang=en_us
 
-syntax on
+" Syntax
+source ~/vim/src/syntax.vim
 
 " Template
 source ~/vim/src/template.vim
