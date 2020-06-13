@@ -4,11 +4,11 @@
 "
 
 set nocompatible              " be iMproved, required filetype off                  " required
-set ruler
 
 set number
-set ic
-set incsearch
+
+" Search
+source ~/vim/src/search.vim
 
 " Spell
 source ~/vim/src/spell.vim
