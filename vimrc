@@ -13,15 +13,6 @@ setlocal spell spelllang=en_us
 
 syntax on
 
-" tell vim to keep a backup file
-set backup
-
-" tell vim where to put its backup files
-set backupdir=/private/tmp
-
-" tell vim where to put swap files
-set dir=/private/tmp
-
 autocmd BufNewFile *.tex 0r ~/vim/templates/skeleton.tex
 au BufNewFile *.cpp r ~/vim/templates/A.cpp
 au BufNewFile *.md r ~/vim/templates/template.md
@@ -36,3 +27,6 @@ source ~/vim/colors/distinguished.vim
 
 " Indent & remove all tabs
 source ~/vim/src/indent.vim
+
+" Backup
+source ~/vim/src/backup.vim
