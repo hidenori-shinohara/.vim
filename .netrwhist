@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =8
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/Users/hidenorishinohara/.vim/autoload'
+let g:netrw_dirhist_9='/Users/hidenorishinohara/.vim/plugged/fzf'
 let g:netrw_dirhist_8='/Users/hidenorishinohara/.vim/plugged/coc.nvim/plugin'
 let g:netrw_dirhist_7='/Users/hidenorishinohara/stellar-supercluster/src/CSLibrary/bin/Debug/netstandard2.0'
 let g:netrw_dirhist_6='/Users/hidenorishinohara/stellar-supercluster/src/FSLibrary/json-pubnet-data'
@@ -8,5 +10,3 @@ let g:netrw_dirhist_4='/Users/hidenorishinohara/stellar-supercluster/src'
 let g:netrw_dirhist_3='/Users/hidenorishinohara/stellar-supercluster'
 let g:netrw_dirhist_2='/Users/hidenorishinohara/stellar-core/scripts/hidetest'
 let g:netrw_dirhist_1='/Users/hidenorishinohara/stellar-core/scripts'
-let g:netrw_dirhist_0='/Users/hidenorishinohara/stellar-core/scripts/hidetest'
-let g:netrw_dirhist_9='/Users/hidenorishinohara/stellar-core/scripts'
