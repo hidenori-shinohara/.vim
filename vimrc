@@ -21,7 +21,7 @@ source ~/.vim/src/syntastic.vim
 source ~/.vim/src/pathogen.vim
 
 " F#
-source ~/.vim/src/fsharp.vim
+source ~/.vim/src/languages/fsharp.vim
 
 " python
 source ~/.vim/src/languages/python.vim
