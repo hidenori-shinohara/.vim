@@ -23,6 +23,9 @@ source ~/.vim/src/pathogen.vim
 " F#
 source ~/.vim/src/fsharp.vim
 
+" python
+source ~/.vim/src/languages/python.vim
+
 " Coc
 source ~/.vim/src/coc.vim
 
