@@ -33,10 +33,10 @@ source ~/.vim/src/coc.vim
 source ~/.vim/src/vim-plug.vim
 
 " Search
-source ~/.vim/src/search.vim
+source ~/.vim/src/basic/search.vim
 
 " Spell
-source ~/.vim/src/spell.vim
+source ~/.vim/src/basic/spell.vim
 
 " Syntax
 source ~/.vim/src/syntax.vim
@@ -51,7 +51,7 @@ source ~/.vim/src/langauges/latex.vim
 source ~/.vim/colors/distinguished.vim
 
 " Indent & remove all tabs
-source ~/.vim/src/indent.vim
+source ~/.vim/src/basic/indent.vim
 
 " Backup
-source ~/.vim/src/backup.vim
+source ~/.vim/src/basic/backup.vim
