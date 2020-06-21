@@ -1,6 +1,5 @@
-" Add
-" source ~/.vim/vimrc
-" to ~/.vimrc
+" Simply delete ~/.vimrc because vim will look for ~/.vim/vimrc if
+" ~/.vimrc doesn't exist.
 
 " Vundle
 " This must be the first .vim to read.
