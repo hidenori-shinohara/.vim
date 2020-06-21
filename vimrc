@@ -1,10 +1,10 @@
 " Add
-" source ~/vim/vimrc
+" source ~/.vim/vimrc
 " to ~/.vimrc
 
 " Vundle
 " This must be the first .vim to read.
-source ~/vim/src/vundle_config.vim
+source ~/.vim/src/vundle_config.vim
 
 set number
 
@@ -15,40 +15,40 @@ let g:ycm_clangd_binary_path = exepath("clangd")
 " let g:ycm_confirm_extra_conf = 0
 
 " Syntastic
-source ~/vim/src/syntastic.vim
+source ~/.vim/src/syntastic.vim
 
 " Pathogen
-source ~/vim/src/pathogen.vim
+source ~/.vim/src/pathogen.vim
 
 " F#
-source ~/vim/src/fsharp.vim
+source ~/.vim/src/fsharp.vim
 
 " Coc
-source ~/vim/src/coc.vim
+source ~/.vim/src/coc.vim
 
 " Vim-plug
-source ~/vim/src/vim-plug.vim
+source ~/.vim/src/vim-plug.vim
 
 " Search
-source ~/vim/src/search.vim
+source ~/.vim/src/search.vim
 
 " Spell
-source ~/vim/src/spell.vim
+source ~/.vim/src/spell.vim
 
 " Syntax
-source ~/vim/src/syntax.vim
+source ~/.vim/src/syntax.vim
 
 " Template
-source ~/vim/src/template.vim
+source ~/.vim/src/template.vim
 
 " Latex auto complete
-source ~/vim/src/latex.vim
+source ~/.vim/src/latex.vim
 
 " Color scheme
-source ~/vim/colors/distinguished.vim
+source ~/.vim/colors/distinguished.vim
 
 " Indent & remove all tabs
-source ~/vim/src/indent.vim
+source ~/.vim/src/indent.vim
 
 " Backup
-source ~/vim/src/backup.vim
+source ~/.vim/src/backup.vim
