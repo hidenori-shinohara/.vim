@@ -5,3 +5,7 @@ let g:LanguageClient_serverCommands = {'fsharp': ['dotnet', '/Users/hidenorishin
 "
 " let g:fsharp_xbuild_path = "msbuild"
 
+
+Plug 'ionide/Ionide-vim', {
+      \ 'do':  'make fsautocomplete',
+      \}
