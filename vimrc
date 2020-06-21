@@ -45,7 +45,7 @@ source ~/.vim/src/syntax.vim
 source ~/.vim/src/template.vim
 
 " Latex auto complete
-source ~/.vim/src/latex.vim
+source ~/.vim/src/langauges/latex.vim
 
 " Color scheme
 source ~/.vim/colors/distinguished.vim
