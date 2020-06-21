@@ -30,6 +30,9 @@ source ~/.vim/src/vim-plug.vim
 source ~/.vim/src/syntax.vim
 
 " Template
+source ~/.vim/src/language-client.vim
+
+" Template
 source ~/.vim/src/template.vim
 
 " Color scheme
