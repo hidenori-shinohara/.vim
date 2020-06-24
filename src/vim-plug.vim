@@ -9,5 +9,8 @@ Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.s
 " (Optional) Multi-entry selection UI.
 Plug 'junegunn/fzf'
 
+" https://github.com/kamykn/spelunker.vim
+Plug 'kamykn/spelunker.vim'
+
 
 call plug#end()
