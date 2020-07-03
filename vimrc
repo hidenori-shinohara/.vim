@@ -66,3 +66,20 @@ source ~/.vim/src/basic/search.vim
 
 " Spell
 source ~/.vim/src/basic/spell.vim
+
+let g:coc_disable_startup_warning = 1    
+
+" Let clangd fully control code completion
+let g:ycm_clangd_uses_ycmd_caching = 0
+" Use installed clangd, not YCM-bundled clangd which doesn't get updates.
+let g:ycm_clangd_binary_path = exepath("clangd")
+
+let g:deoplete#enable_at_startup = 1
+set hidden
+let g:LanguageClient_serverCommands = {
+    \ 'python': ['pyls'],
+    \ 'cpp': ['clangd']
+\ }
+
+let g:LanguageClient_autoStart = 1
+let g:LanguageClient_trace = 'verbose'
