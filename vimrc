@@ -1,5 +1,6 @@
 " Simply delete ~/.vimrc because vim will look for ~/.vim/vimrc if
 " ~/.vimrc doesn't exist.
+" For NeoVim, https://neovim.io/doc/user/nvim.html#nvim-from-vim
 
 " Vundle
 " This must be the first .vim to read.
@@ -15,7 +16,7 @@ let g:ycm_clangd_binary_path = exepath("clangd")
 " 
 
 " Syntastic
-source ~/.vim/src/syntastic.vim
+" source ~/.vim/src/syntastic.vim
 
 " Pathogen
 source ~/.vim/src/pathogen.vim
