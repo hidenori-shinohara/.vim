@@ -7,7 +7,7 @@ nnoremap <silent> <F2> :call LanguageClient#textDocument_rename()<CR>
 
 let g:LanguageClient_serverCommands = {
     \ 'python': ['pyls'],
-    \ 'fsharp': ['dotnet', '/root/.vim/fsharp/fsharp-language-server/src/FSharpLanguageServer/bin/Release/netcoreapp3.0/FSharpLanguageServer.dll'],
+    \ 'fsharp': ['dotnet', '~/.vim/fsharp/fsharp-language-server/src/FSharpLanguageServer/bin/Release/netcoreapp3.0/FSharpLanguageServer.dll'],
     \ 'cpp': ['clangd']
 \ }
 
