@@ -50,16 +50,3 @@ source ~/.vim/src/basic/search.vim
 
 " Spell
 source ~/.vim/src/basic/spell.vim
-
-set hidden
-let g:LanguageClient_serverCommands = {
-    \ 'python': ['pyls'],
-    \ 'fsharp': ['dotnet', '/root/.vim/fsharp/fsharp-language-server/src/FSharpLanguageServer/bin/Release/netcoreapp3.0/FSharpLanguageServer.dll'],
-    \ 'cpp': ['clangd']
-\ }
-
-let g:LanguageClient_autoStart = 1
-let g:LanguageClient_trace = 'verbose'
-
-" vim: sw=4 et sts=4
-
