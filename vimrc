@@ -35,9 +35,6 @@ source ~/.vim/colors/distinguished.vim
 " Latex auto complete
 source ~/.vim/src/languages/latex.vim
 
-" F#
-source ~/.vim/src/languages/fsharp.vim
-
 " =========================================
 "                 Basic
 " =========================================
