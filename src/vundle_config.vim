@@ -11,8 +11,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 
-" YouCompleteMe
-Plugin 'ycm-core/YouCompleteMe'
+Plugin 'octol/vim-cpp-enhanced-highlight'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
