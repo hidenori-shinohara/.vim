@@ -50,3 +50,8 @@ source ~/.vim/src/basic/search.vim
 
 " Spell
 source ~/.vim/src/basic/spell.vim
+
+" clang-format
+if !empty(findfile('.clang-format', ';'))
+  setlocal formatprg=clang-format-10\ -style=file
+endif
